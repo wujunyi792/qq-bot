@@ -1,0 +1,45 @@
+{
+  "name": "el-bot-template",
+  "version": "0.2.1",
+  "description": "el-bot 的快速启动模版",
+  "private": true,
+  "main": "index.js",
+  "mcl": {
+    "folder": "mcl"
+  },
+  "scripts": {
+    "bot": "nodemon --exec el bot",
+    "dev": "nodemon --exec el bot",
+    "mcl": "cd mcl && ./mcl",
+    "start": "el start",
+    "start:bot": "el start bot",
+    "start:mcl": "el start mcl",
+    "install:mirai": "el install mirai",
+    "lint": "eslint --fix . && prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElpsyCN/el-bot-template.git"
+  },
+  "author": {
+    "name": "YunYouJun",
+    "email": "me@yunyoujun.cn",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ElpsyCN/el-bot-template/issues"
+  },
+  "homepage": "https://github.com/ElpsyCN/el-bot-template#readme",
+  "dependencies": {
+    "el-bot": "^0.9.0-beta.1"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
